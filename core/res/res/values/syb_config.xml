@@ -22,6 +22,9 @@
           vendor fingerprint HAL implementations. -->
      <bool name="config_fingerprintPostResetRunnableForAllClients">false</bool>
 
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">true</bool>
+
     <!-- Path to the library that contains a device specific key handler -->
     <string name="config_deviceKeyHandlerLib" translatable="false"></string>
 

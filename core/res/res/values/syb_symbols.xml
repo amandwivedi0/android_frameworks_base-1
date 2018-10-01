@@ -19,6 +19,9 @@
   <!-- Post reset runnable for all clients -->
   <java-symbol type="bool" name="config_fingerprintPostResetRunnableForAllClients" />
 
+  <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+  <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
+
   <java-symbol type="integer" name="config_deviceHardwareKeys" />
   <java-symbol type="string" name="config_deviceKeyHandlerLib" />
   <java-symbol type="string" name="config_deviceKeyHandlerClass" />
