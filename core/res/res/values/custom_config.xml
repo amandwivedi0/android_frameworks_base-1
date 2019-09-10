@@ -23,6 +23,10 @@
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
     </string-array>
 
+    <!-- Whether to post reset runnable for all clients. Needed for some older
+	              vendor fingerprint HAL implementations. -->
+    <bool name="config_fingerprintPostResetRunnableForAllClients">false</bool>
+
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
     </string-array>
